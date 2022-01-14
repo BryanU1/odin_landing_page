@@ -1,0 +1,184 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  margin: 0;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-start;
+  padding: 100px 100px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  gap: 30px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.hero-text {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px 24px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+}
+
+.bottom div{
+  flex: 1;
+}
+
+.bottom img {
+  height: auto;
+  width: 400px;
+  flex-shrink: 1;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 100px 50px;
+}
+
+.info-container div {
+  width: 150px;
+}
+
+.img-container {
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.content .subtext {
+  font-size: 14px;
+  color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 200px 50px;
+  font-size: 26px;
+  font-weight: 100px;
+  font-style: italic;
+}
+
+.quote .cite {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+ .box {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F9FAF8;
+  border-radius: 10px;
+  padding: 30px 50px;
+  margin: 40px 100px;
+  height: 50px;
+  width: 800px;
+ }
+ .box .action-title {
+   font-weight: bold;
+   font-size: 16px;
+ }
+ 
+ .box .text {
+   font-size: 12px;
+ }
+
+ .box .sign-up {
+   align-self: center;
+   border: 2px solid white;
+ }
+
+.footer {
+  height: 50px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
